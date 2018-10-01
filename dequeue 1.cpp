@@ -5,6 +5,7 @@ int f=-1;
 int r=-1;
 int s=5;
 int q[5];
+int t;
 
 void insert(int i){
 	if(r+1==size){
