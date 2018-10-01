@@ -7,7 +7,7 @@ int top=-1;
  void push(int item){
    if(top +1 == size)
    {
-     cout<<"Stack overflow";
+     cout<<"stop pusshing..Stack overflow";
    }
    else
    {
@@ -21,7 +21,7 @@ int top=-1;
  int pop(){
    int item;
    if(top==-1){
-     cout<<"Stack underflow";}
+     cout<<"stop popping...Stack underflow";}
    else
    {
      item=s[top];
